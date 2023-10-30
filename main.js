@@ -41,11 +41,11 @@ function detailDropdown(){
     block2.classList.toggle('show_personal_details2');
     bigBlock.classList.toggle('personal_gap');
     main_container.classList.toggle('extend_main');
-    if(block1.classList.contains('show_personal_details')){
+    if(block1.classList.contains('show_personal_details1')){
         buttonText.textContent="Hide Details";
         return
     }
-    buttonText.textContent="Full Details";
+    buttonText.textContent="More Details";
 }
 
 window.addEventListener('load', function(){
